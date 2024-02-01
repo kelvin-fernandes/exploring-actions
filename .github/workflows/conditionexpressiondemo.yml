@@ -15,7 +15,7 @@ jobs:
     
     steps:
     
-      - name: checkout code if running on master branch
+      - name: checkout code if running on main branch
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: actions/checkout@v2
         
